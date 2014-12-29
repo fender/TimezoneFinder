@@ -1,0 +1,5 @@
+<h1>Welcome</h1>
+<p>Hello world! Welcome to Timezone Finder.</p>
+<label>Select a city</label>
+<select ng-model="selectedCity" ng-options="city.name for city in cities"></select>
+<p city-timezone city="selectedCity"></p>
